@@ -1,3 +1,4 @@
+pip install geopandas
 from collections import namedtuple
 import altair as alt
 import math
