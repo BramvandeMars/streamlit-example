@@ -25,8 +25,6 @@ datapad = geopandas.datasets.get_path("nybb")
 data = geopandas.read_file(datapad)
 data = data.set_index("BoroName")
 data["area"] = data.area
-%config IPCompleter.greedy = True
-%matplotlib inline
 
 #Alle bestanden inlezen, alleen een .shp bestand is niet genoeg, je hebt alle bestanden nodig.
 zipfile = "zip:///Users/bramv/Data Science/Politie/Week 2/Geopandas/WijkBuurtkaart_2021_v1.zip/gemeente_2021_v1.shp"
